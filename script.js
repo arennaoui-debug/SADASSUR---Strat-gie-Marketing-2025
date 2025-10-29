@@ -1,12 +1,3 @@
-/**
- * Ce script gère l'interactivité de la page SADASSUR :
- * 1. Initialisation des icônes Lucide.
- * 2. Gestion du système d'onglets (Tabs).
- * 3. Gestion des accordéons (Lead Magnets et Nurturing).
- * 4. Animation d'apparition au défilement (Fade-in).
- */
-
-// Attend que le contenu de la page soit entièrement chargé
 document.addEventListener('DOMContentLoaded', () => {
 
     // 1. Initialisation des icônes Lucide
@@ -101,3 +92,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
