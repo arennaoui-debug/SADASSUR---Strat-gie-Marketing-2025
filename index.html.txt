@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SADASSUR - Stratégie Marketing 2025 Détaillée</title>
+    
+    <!-- Chargement de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Chargement des icônes Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Liaison vers votre fichier de styles CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- En-tête (Header) avec Animation -->
+    <header class="header-bg text-white shadow-xl p-6 md:p-10 sticky top-0 z-20">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-3xl md:text-5xl font-extrabold flex items-center mb-2">
+                <i data-lucide="line-chart" class="w-8 h-8 md:w-10 md:h-10 mr-3 text-white"></i>
+                PLAN DÉTAILLÉ SADASSUR
+            </h1>
+            <p class="text-xl md:text-2xl font-light opacity-90">Stratégie 2025 : Expertise Nationale & Niche à Risques Aggravés</p>
+        </div>
+    </header>
+
+    <!-- Contenu Principal -->
+    <main class="max-w-7xl mx-auto p-4 md:p-8">
+
+        <!-- 0. Aperçu et Différenciation -->
+        <section class="fade-in-section mt-6 p-6 md:p-10 bg-white rounded-xl shadow-2xl border-t-4 border-primary">
+            <h2 class="text-3xl font-bold text-primary mb-4 flex items-center">
+                <i data-lucide="sparkles" class="w-7 h-7 mr-3 text-accent"></i>
+                L'Approche SADASSUR : Spécialisation et Portée Nationale
+            </h2>
+            <p class="text-lg mb-6 text-gray-600 border-b pb-4">
+                La stratégie pivote vers une expertise de niche nationale, se positionnant comme la solution n°1 pour les profils non standards et les besoins spécifiques.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+                <div class="p-4 bg-primary text-white rounded-lg shadow-md transform hover:scale-[1.02] transition duration-300">
+                    <i data-lucide="globe" class="w-8 h-8 mx-auto mb-2"></i>
+                    <p class="font-bold text-xl">1. Couverture Nationale</p>
+                    <p class="text-sm opacity-90">Acquisition de leads sur l'ensemble du territoire français via des campagnes digitales. Deux agences physiques servent de points d'ancrage stratégiques.</p>
+                </div>
+                <div class="p-4 bg-secondary text-white rounded-lg shadow-md transform hover:scale-[1.02] transition duration-300">
+                    <i data-lucide="shield-alert" class="w-8 h-8 mx-auto mb-2"></i>
+                    <p class="font-bold text-xl">2. Niche : Risque Aggravé</p>
+                    <p class="text-sm opacity-90">Spécialisation sur les dossiers complexes (santé aggravée, auto malussée, perte d'emploi), où la concurrence est moins efficace.</p>
+                </div>
+                <div class="p-4 bg-accent text-gray-900 rounded-lg shadow-md transform hover:scale-[1.02] transition duration-300">
+                    <i data-lucide="lightbulb" class="w-8 h-8 mx-auto mb-2"></i>
+                    <p class="font-bold text-xl">3. Solution Complète</p>
+                    <p class="text-sm opacity-90">Promouvoir la prise en charge totale des démarches administratives, un gain de temps majeur pour le client.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Système d'Onglets (Tabs) pour les 4 Piliers -->
+        <div class="fade-in-section bg-white rounded-xl shadow-2xl p-6 mt-8">
+
+            <!-- Navigation des Onglets -->
+            <div role="tablist" class="flex flex-wrap border-b border-gray-200 mb-6 gap-2">
+                <button
+                    data-tab-target="magnets"
+                    class="tab-button bg-primary text-white py-3 px-4 md:px-6 text-sm md:text-base font-semibold rounded-t-lg transition duration-300 ease-in-out flex items-center shadow-lg"
+                    aria-selected="true"
+                >
+                    <i data-lucide="rocket" class="w-5 h-5 mr-2"></i> 1. Lead Magnets (Offres Niche)
+                </button>
+                <button
+                    data-tab-target="ads"
+                    class="tab-button text-gray-600 hover:bg-gray-100 py-3 px-4 md:px-6 text-sm md:text-base font-semibold rounded-t-lg transition duration-300 ease-in-out flex items-center"
+                    aria-selected="false"
+                >
+                    <i data-lucide="megaphone" class="w-5 h-5 mr-2"></i> 2. Publicité Numérique (Acquisition)
+                </button>
+                <button
+                    data-tab-target="nurturing"
+                    class="tab-button text-gray-600 hover:bg-gray-100 py-3 px-4 md:px-6 text-sm md:text-base font-semibold rounded-t-lg transition duration-300 ease-in-out flex items-center"
+                    aria-selected="false"
+                >
+                    <i data-lucide="refresh-cw" class="w-5 h-5 mr-2"></i> 3. Séquences de Nurturing (Conversion)
+                </button>
+                <button
+                    data-tab-target="kpis"
+                    class="tab-button text-gray-600 hover:bg-gray-100 py-3 px-4 md:px-6 text-sm md:text-base font-semibold rounded-t-lg transition duration-300 ease-in-out flex items-center"
+                    aria-selected="false"
+                >
+                    <i data-lucide="send" class="w-5 h-5 mr-2"></i> 4. Déploiement & Mesure
+                </button>
+            </div>
+
+            <!-- Contenu des Onglets -->
+            <div id="tab-content">
+
+                <!-- 1. Lead Magnets (Accordéon et Cartes Visuelles) -->
+                <section data-tab-content="magnets" class="tab-pane active p-4 md:p-6 bg-gray-50 rounded-lg border border-gray-200 shadow-inner">
+                    <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6 border-b pb-2">1. Lead Magnets : Le Cœur de la Captation Qualifiée par Niche</h2>
+
+                    <div class="grid lg:grid-cols-3 gap-6" id="accordion-magnets">
+
+                        <!-- Lead Magnet 1: Emprunteur (Risque Aggravé, Perte d'Emploi, Démarches) -->
+                        <div class="accordion-item bg-white rounded-xl shadow-lg border-t-4 border-accent overflow-hidden">
+                            <button class="accordion-header w-full p-4 text-left font-extrabold text-lg md:text-xl text-primary hover:text-secondary transition duration-200 bg-gray-50 flex items-center" data-segment="emprunteur">
+                                <i data-lucide="banknote" class="w-6 h-6 mr-3 text-accent"></i> Emprunteur : Dossiers Spéciaux
+                                <i data-lucide="chevron-down" class="accordion-icon w-6 h-6 ml-auto transition-transform duration-300"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="p-4 md:p-6">
+                                    <h4 class="text-xl font-semibold mb-2">Titre : "Spécial Risques : Le Trousse de Secours de l'Emprunteur"</h4>
+                                    <p class="mb-3 text-gray-700 font-medium">Guide pour Sécuriser votre Prêt : Perte d'emploi, Risque de Santé Aggravé et Démarches 100% prises en charge.</p>
+                                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 text-sm">
+                                        <p><span class="font-bold text-blue-800">Message Clé :</span> « Vous avez un risque de santé ? Peur de la perte d'emploi ? Notre guide vous garantit l'acceptation de prêt et nous gérons <span class="font-extrabold">toutes les démarches administratives de A à Z</span>. »</p>
+                                    </div>
+                                    <h5 class="font-bold mt-4 text-primary">Ciblage National :</h5>
+                                    <p class="text-xs italic">Toutes personnes ayant ou cherchant un prêt. Focus sur ceux qui recherchent activement les garanties "Perte d'Emploi" ou "Risque Aggravé de Santé".</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lead Magnet 2: Santé (45-60 ans) -->
+                        <div class="accordion-item bg-white rounded-xl shadow-lg border-t-4 border-accent overflow-hidden">
+                            <button class="accordion-header w-full p-4 text-left font-extrabold text-lg md:text-xl text-primary hover:text-secondary transition duration-200 bg-gray-50 flex items-center" data-segment="sante">
+                                <i data-lucide="activity" class="w-6 h-6 mr-3 text-accent"></i> Santé : La Bascule 45-60 Ans
+                                <i data-lucide="chevron-down" class="accordion-icon w-6 h-6 ml-auto transition-transform duration-300"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="p-4 md:p-6">
+                                    <h4 class="text-xl font-semibold mb-2">Titre : "Check-up Mutuelle 45-60 Ans : Évitez la Surchauffe"</h4>
+                                    <p class="mb-3 text-gray-700 font-medium">Le guide pour optimiser votre couverture avant la retraite sans payer le prix fort pour des garanties inutiles.</p>
+                                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 text-sm">
+                                        <p><span class="font-bold text-blue-800">Message Clé :</span> « La période 45-60 ans est critique. Téléchargez notre guide et vérifiez que votre mutuelle couvre efficacement les <span class="font-extrabold">frais d'hospitalisation et d'appareillage</span> sans exploser votre budget. »</p>
+                                    </div>
+                                    <h5 class="font-bold mt-4 text-primary">Ciblage National :</h5>
+                                    <p class="text-xs italic">Cible 45-60 ans (actifs et pré-retraités) sur toute la France. Focus sur le besoin d'anticipation des besoins santé futurs.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lead Magnet 3: Auto (Risque Aggravé) -->
+                        <div class="accordion-item bg-white rounded-xl shadow-lg border-t-4 border-accent overflow-hidden">
+                            <button class="accordion-header w-full p-4 text-left font-extrabold text-lg md:text-xl text-primary hover:text-secondary transition duration-200 bg-gray-50 flex items-center" data-segment="auto">
+                                <i data-lucide="car-taxi-front" class="w-6 h-6 mr-3 text-accent"></i> Auto : Spécial Risque Aggravé
+                                <i data-lucide="chevron-down" class="accordion-icon w-6 h-6 ml-auto transition-transform duration-300"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="p-4 md:p-6">
+                                    <h4 class="text-xl font-semibold mb-2">Titre : "Le Service 0 Refus : Assurance Auto pour Profils Complexes"</h4>
+                                    <p class="mb-3 text-gray-700 font-medium">Comment s'assurer sans se ruiner après un malus, un sinistre fréquent ou un retrait de permis.</p>
+                                    <div class="bg-blue-50 border-l-4 border-blue-500 p-3 text-sm">
+                                        <p><span class="font-bold text-blue-800">Message Clé :</span> « Les assureurs traditionnels vous ont refusé ou surtaxé ? Téléchargez notre guide et trouvez en 48h une solution <span class="font-extrabold">adaptée à votre situation de risque aggravé</span>, sans jugement. »</p>
+                                    </div>
+                                    <h5 class="font-bold mt-4 text-primary">Ciblage National :</h5>
+                                    <p class="text-xs italic">Conducteurs sanctionnés, malussés, avec antécédents de sinistres ou retrait de permis. Ciblage national via mots-clés spécifiques et audiences Meta.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. Publicité Numérique (SEA & Social Ads) -->
+                <section data-tab-content="ads" class="tab-pane hidden p-4 md:p-6 bg-gray-50 rounded-lg border border-gray-200 shadow-inner">
+                    <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6 border-b pb-2">2. Campagnes d'Acquisition : Du Trafic National à la Niche</h2>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- SEA (Google Ads) - National & Intentionniste -->
+                        <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-secondary">
+                            <h3 class="font-bold text-2xl text-secondary mb-3 flex items-center"><i data-lucide="search" class="w-6 h-6 mr-2"></i> SEA (Google Ads)</h3>
+                            <p class="text-sm italic mb-4 text-gray-600">Objectif : Capturer l'intention de niche chaude sur toute la France.</p>
+                            <ul class="list-disc list-inside text-sm space-y-3">
+                                <li><span class="font-semibold text-primary">KWs Emprunteur :</span> `Assurance prêt risque aggravé`, `Assurance prêt perte emploi`, `Loi Lemoine démarches`.</li>
+                                <li><span class="font-semibold text-primary">KWs Auto :</span> `Assurance auto malus lourd`, `Assurance après retrait permis`, `Assurance auto jeune conducteur sinistré`.</li>
+                                <li><span class="font-semibold text-primary">KWs Santé :</span> `Mutuelle 50 ans meilleur prix`, `Complémentaire santé 45 60 ans`.</li>
+                                <li><span class="font-semibold text-primary">Texte d'Annonce :</span> Mettre en avant le service (`Démarches administratives 100% gérées`) et non uniquement le prix.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Social Ads (Meta Ads) - National & Segmentation -->
+                        <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-secondary">
+                            <h3 class="font-bold text-2xl text-secondary mb-3 flex items-center"><i data-lucide="user-plus" class="w-6 h-6 mr-2"></i> Social Ads (Meta / LinkedIn)</h3>
+                            <p class="text-sm italic mb-4 text-gray-600">Objectif : Susciter l'intérêt chez des profils cibles segmentés sur le territoire national.</p>
+                            <ul class="list-disc list-inside text-sm space-y-3">
+                                <li><span class="font-semibold text-primary">Ciblage Santé :</span> Démographique 45-60 ans + Intérêts "Planification Retraite", "Investissement immobilier".</li>
+                                <li><span class="font-semibold text-primary">Ciblage Emprunteur :</span> Audiences Lookalike basées sur les visiteurs de la page "Perte d'emploi" ou "Risque Aggravé".</li>
+                                <li><span class="font-semibold text-primary">Ciblage Auto :</span> Utilisation de publicités vidéo percutantes (Ex: un conducteur frustré par son assureur) ciblant des comportements d'achat d'assurance.</li>
+                                <li><span class="font-semibold text-primary">Plateforme :</span> Priorité à Meta pour le volume (Santé/Emprunteur). Utilisation de LinkedIn pour le risque aggravé Emprunteur (profils cadres/professions libérales).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. Séquences de Lead Nurturing (Détail de la Valeur) -->
+                <section data-tab-content="nurturing" class="tab-pane hidden p-4 md:p-6 bg-gray-50 rounded-lg border border-gray-200 shadow-inner">
+                    <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6 border-b pb-2">3. Séquences de Nurturing : De la Spécialisation à la Confiance</h2>
+
+                    <div class="space-y-6" id="accordion-nurturing">
+
+                        <!-- Emprunteur Nurturing (Perte d'Emploi / Risque Aggravé) -->
+                        <div class="accordion-item bg-white rounded-xl shadow-lg border-l-4 border-primary overflow-hidden">
+                            <button class="accordion-header w-full flex justify-between items-center p-4 md:p-6 text-left font-bold text-lg text-primary bg-gray-100 hover:bg-gray-200 transition duration-200" data-segment="emprunteur-nurturing">
+                                <span class="flex items-center"><i data-lucide="trending-up" class="w-6 h-6 mr-3"></i> Séquence 1 : Assurance Emprunteur (L'Expertise Simplifiée)</span>
+                                <i data-lucide="chevron-down" class="accordion-icon w-6 h-6 transition-transform duration-300"></i>
+                            </button>
+                            <div class="accordion-content p-4 md:p-6">
+                                <ul class="list-none space-y-4">
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 1 (J+0 - Lien) :</span> Objet : Votre dossier Emprunteur Spécial : Voici comment nous obtenons l'accord. <br><span class="text-sm">Contenu : Confirmation de téléchargement + Article sur la méthode SADASSUR pour valider un risque de santé aggravé (Méthode de la convention AERAS).</span></li>
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 2 (J+3 - Valeur) :</span> Objet : Stop aux papiers ! Le service Démarches administratives 100% pris en charge. <br><span class="text-sm">Contenu : Mettre en avant la garantie de prise en charge totale des démarches. C'est le service qui nous différencie des comparateurs.</span></li>
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 3 (J+7 - CTA) :</span> Objet : Prêt sans stress : votre devis incluant la garantie Perte d'Emploi. <br><span class="text-sm">Contenu : Appel à l'action vers le devis, en mettant en évidence les garanties spécifiques recherchées.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Santé Nurturing (45-60 ans) -->
+                        <div class="accordion-item bg-white rounded-xl shadow-lg border-l-4 border-primary overflow-hidden">
+                            <button class="accordion-header w-full flex justify-between items-center p-4 md:p-6 text-left font-bold text-lg text-primary bg-gray-100 hover:bg-gray-200 transition duration-200" data-segment="sante-nurturing">
+                                <span class="flex items-center"><i data-lucide="heart-pulse" class="w-6 h-6 mr-3"></i> Séquence 2 : Assurance Santé (Préparation de la Retraite)</span>
+                                <i data-lucide="chevron-down" class="accordion-icon w-6 h-6 transition-transform duration-300"></i>
+                            </button>
+                            <div class="accordion-content p-4 md:p-6">
+                                <ul class="list-none space-y-4">
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 1 (J+0 - Lien) :</span> Objet : Votre Check-up Mutuelle : Ce qui change après 50 ans. <br><span class="text-sm">Contenu : Lien vers le guide + Focus sur l'augmentation des primes et comment la maîtriser en changeant les garanties "jeunes".</span></li>
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 2 (J+3 - Éducation) :</span> Objet : Senior 45-60 : Le remboursement Optique/Dentaire que vous méritez. <br><span class="text-sm">Contenu : Contenu axé sur le "reste à charge zéro" pour des besoins précis (prothèses dentaires, lunettes).</span></li>
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 3 (J+7 - CTA) :</span> Objet : Mutuelle 45-60 ans : demandez votre audit gratuit avant l'augmentation annuelle. <br><span class="text-sm">Contenu : CTA pour un RDV "Audit de Contrat" gratuit en visio ou agence. Insister sur l'expertise et la comparaison sur garanties (pas seulement prix).</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Auto Nurturing (Risque Aggravé) -->
+                        <div class="accordion-item bg-white rounded-xl shadow-lg border-l-4 border-primary overflow-hidden">
+                            <button class="accordion-header w-full flex justify-between items-center p-4 md:p-6 text-left font-bold text-lg text-primary bg-gray-100 hover:bg-gray-200 transition duration-200" data-segment="auto-nurturing">
+                                <span class="flex items-center"><i data-lucide="shield-alert" class="w-6 h-6 mr-3"></i> Séquence 3 : Assurance Auto (La Solution du Risque Aggravé)</span>
+                                <i data-lucide="chevron-down" class="accordion-icon w-6 h-6 transition-transform duration-300"></i>
+                            </button>
+                            <div class="accordion-content p-4 md:p-6">
+                                <ul class="list-none space-y-4">
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 1 (J+0 - Lien) :</span> Objet : Vous avez un malus ? Voici les 3 clés pour retrouver une assurance juste. <br><span class="text-sm">Contenu : Rappel du guide + Focus sur la nécessité de l'honnêteté et de la transparence du dossier pour obtenir le meilleur prix.</span></li>
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 2 (J+3 - Preuve) :</span> Objet : Pourquoi le courtier est votre meilleur allié après un retrait de permis. <br><span class="text-sm">Contenu : Expliquer l'accès aux compagnies spécialisées (partenariats SADASSUR). Montrer que nous avons une solution où d'autres n'en ont pas.</span></li>
+                                    <li class="border-b pb-2"><span class="font-bold text-lg text-secondary">E-mail 3 (J+7 - CTA) :</span> Objet : Devis Auto Risque Aggravé : 100% sans engagement et 100% de solutions. <br><span class="text-sm">Contenu : CTA final vers le devis spécialisé, promettant une réponse positive rapide.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- 4. Déploiement & Mesure (KPIs et Démarche Détaillée) -->
+                <section data-tab-content="kpis" class="tab-pane hidden p-4 md:p-6 bg-gray-50 rounded-lg border border-gray-200 shadow-inner">
+                    <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6 border-b pb-2">4. Déploiement Stratégique & Mesure de Performance</h2>
+
+                    <div class="bg-white p-6 rounded-xl shadow-lg mb-8">
+                        <h3 class="font-bold text-2xl text-secondary mb-4">Objectifs SMART (6 Mois)</h3>
+                        <div class="grid md:grid-cols-4 gap-4 text-center">
+                            <div class="p-3 bg-green-50 rounded-lg border border-green-200">
+                                <p class="text-3xl font-extrabold text-green-600">+50%</p>
+                                <p class="text-sm text-gray-600">Leads Qualifiés (Nationale)</p>
+                            </div>
+                            <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+                                <p class="text-3xl font-extrabold text-blue-600">30%</p>
+                                <p class="text-sm text-gray-600">Taux de Conversion Lead Magnet/Lead</p>
+                            </div>
+                            <div class="p-3 bg-red-50 rounded-lg border border-red-200">
+                                <p class="text-3xl font-extrabold text-red-600">20%</p>
+                                <p class="text-sm text-gray-600">Taux de Conversion Lead/Client Final</p>
+                            </div>
+                            <div class="p-3 bg-yellow-50 rounded-lg border border-yellow-200">
+                                <p class="text-3xl font-extrabold text-yellow-600">x4</p>
+                                <p class="text-sm text-gray-600">ROI Marketing (Objectif Niche)</p>
+                            </div>
+                        </div>
+
+                        <h3 class="font-bold text-xl text-primary mt-8 mb-3 border-t pt-4">Indicateurs de Performance Clés (KPIs)</h3>
+                        <ul class="list-disc list-inside text-sm space-y-2">
+                            <li><span class="font-bold text-secondary">Coût par Lead Qualifié (CPL-Q) :</span> Mesure du coût d'acquisition d'un lead ayant consommé la séquence de Nurturing.</li>
+                            <li><span class="font-bold text-secondary">Engagement Nurturing :</span> Taux de clic spécifique sur le CTA final du 3e e-mail (conversion Lead/Simulation).</li>
+                            <li><span class="font-bold text-secondary">Taux de Dossiers Complexes :</span> Pourcentage de clients finaux provenant des segments "Risque Aggravé".</li>
+                        </ul>
+                    </div>
+
+                    <!-- NOUVELLE SECTION : Modèle Économique et Rentabilité -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-accent mb-8">
+                        <h3 class="font-bold text-2xl text-accent mb-4 flex items-center"><i data-lucide="wallet" class="w-6 h-6 mr-2"></i> Modèle Économique et Rentabilité Prévisionnelle</h3>
+                        <p class="text-sm italic mb-4 text-gray-600">Estimations basées sur les benchmarks de l'assurance de niche (risques aggravés, prêts) où la valeur vie client (LTV) est élevée.</p>
+
+                        <!-- Tableau des Coûts (CPL & CPA) -->
+                        <div class="mb-6">
+                            <h4 class="font-bold text-lg text-primary mb-2">Estimation des Coûts d'Acquisition</h4>
+                            <div class="overflow-x-auto">
+                                <table class="min-w-full divide-y divide-gray-200 rounded-lg shadow-md">
+                                    <thead class="bg-gray-100">
+                                        <tr>
+                                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Indicateur</th>
+                                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Définition</th>
+                                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Estimation Cible</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white divide-y divide-gray-200 text-sm">
+                                        <tr>
+                                            <td class="px-4 py-2 font-semibold">CPL (Lead Magnet)</td>
+                                            <td class="px-4 py-2">Coût pour obtenir le téléchargement d'un guide.</td>
+                                            <td class="px-4 py-2 text-green-600 font-bold">5 € - 10 €</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="px-4 py-2 font-semibold">CPL-Q (Simulation)</td>
+                                            <td class="px-4 py-2">Coût pour obtenir une demande de simulation (Lead Qualifié).</td>
+                                            <td class="px-4 py-2 text-orange-600 font-bold">50 € - 150 €</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="px-4 py-2 font-semibold">CPA (Client Final)</td>
+                                            <td class="px-4 py-2">Coût de revient pour obtenir une vente de police d'assurance.</td>
+                                            <td class="px-4 py-2 text-red-600 font-bold">300 € - 600 €</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Tableau des Rendements (LTV & ROI) -->
+                        <div>
+                            <h4 class="font-bold text-lg text-primary mb-2">Rendement et Valeur Client (LTV)</h4>
+                            <div class="overflow-x-auto">
+                                <table class="min-w-full divide-y divide-gray-200 rounded-lg shadow-md">
+                                    <thead class="bg-gray-100">
+                                        <tr>
+                                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Indicateur</th>
+                                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Estimation</th>
+                                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase">Justification (Niche)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white divide-y divide-gray-200 text-sm">
+                                        <tr>
+                                            <td class="px-4 py-2 font-semibold">LTV (3 ans) - Auto/Santé</td>
+                                            <td class="px-4 py-2 text-green-600 font-bold">~ 900 €</td>
+                                            <td class="px-4 py-2">Fidélisation moyenne sur produits IARD.</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="px-4 py-2 font-semibold">LTV (8 ans) - Emprunteur</td>
+                                            <td class="px-4 py-2 text-green-600 font-bold">~ 2400 €</td>
+                                            <td class="px-4 py-2">Commissionnement long terme sur les prêts.</td>
+                                        </tr>
+                                        <tr class="bg-green-50">
+                                            <td class="px-4 py-2 font-extrabold text-green-800">ROI Cible (Ratio LTV/CPA)</td>
+                                            <td class="px-4 py-2 font-extrabold text-green-800">Min. 3:1 / Cible 4:1</td>
+                                            <td class="px-4 py-2 text-green-800">La niche (LTV élevée) doit compenser le CPA élevé.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+    </main>
+    
+    <!-- Liaison vers votre fichier JavaScript -->
+    <!-- 'defer' assure que le script s'exécute après l'analyse du HTML -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
