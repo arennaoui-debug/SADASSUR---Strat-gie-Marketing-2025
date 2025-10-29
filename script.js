@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof lucide !== 'undefined') {
         lucide.createIcons();
     } else {
-        console.warn('Lucide icons library not found.');
+        console.warn('Lucide icons library not found. Make sure the script is included.');
     }
 
     // 2. Gestion du système d'onglets (Tabs)
     const tabButtons = document.querySelectorAll('.tab-button');
-    const tabPanes = document.querySelectorAll('.tab-pane'); // Utilise .tab-pane pour le contenu
+    const tabPanes = document.querySelectorAll('.tab-pane');
 
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Mettre à jour les boutons
             tabButtons.forEach(btn => {
                 btn.setAttribute('aria-selected', 'false');
-                // Classes pour l'état inactif (basées sur votre HTML)
+                // Classes pour l'état inactif (Tailwind-like)
                 btn.classList.remove('bg-primary', 'text-white', 'shadow-lg');
                 btn.classList.add('text-gray-600', 'hover:bg-gray-100');
             });
@@ -41,9 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+    
+    // Activation de l'onglet initial (le premier)
+    if (tabButtons.length > 0) {
+        // Applique l'état 'active' au premier bouton
+        tabButtons[0].click(); 
+    }
 
-    // 3. Gestion des accordéons (pour les deux sections)
-    // Cette fonction gère les clics sur n'importe quel .accordion-header
+
+    // 3. Gestion des accordéons
     const accordionHeaders = document.querySelectorAll('.accordion-header');
 
     accordionHeaders.forEach(header => {
@@ -90,6 +96,4 @@ document.addEventListener('DOMContentLoaded', () => {
             section.classList.add('is-visible');
         });
     }
-
 });
-
