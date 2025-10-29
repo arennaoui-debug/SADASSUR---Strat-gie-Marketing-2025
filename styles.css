@@ -3,6 +3,7 @@
     --secondary-color: #00B4D8; /* Bleu Clair */
     --accent-color: #48CAE4; /* Cyan */
 }
+/* Classes utilitaires */
 .text-primary { color: var(--primary-color); }
 .bg-primary { background-color: var(--primary-color); }
 .bg-secondary { background-color: var(--secondary-color); }
@@ -19,6 +20,8 @@
     background: linear-gradient(-45deg, var(--primary-color), var(--secondary-color), var(--accent-color));
     background-size: 400% 400%;
     animation: gradientPulse 15s ease infinite;
+    padding: 20px; /* Ajout pour visualiser l'entête */
+    color: white; /* Ajout pour la lisibilité du texte */
 }
 
 /* Styles pour l'accordéon */
@@ -46,12 +49,17 @@
 }
 
 /* Styles pour les onglets (tabs) */
-/* Le JS gère l'ajout/retrait des classes Tailwind, 
-   mais nous pouvons garder la classe 'hidden' pour le JS */
+/* Le JS gère l'ajout/retrait des classes Tailwind,
+    mais nous pouvons garder la classe 'hidden' pour le JS */
 .tab-pane.hidden {
     display: none;
 }
 .tab-pane.active {
     display: block;
 }
+/* Style pour la tabulation active */
+.tab-button.active {
+    border-bottom: 2px solid var(--primary-color);
+}
+
 
